@@ -23,7 +23,7 @@ public class Invocation_count {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 	}
-	@Test(invocationCount=3, invocationTimeOut=3000, threadPoolSize=2)
+	@Test(invocationCount=5, invocationTimeOut=5000, threadPoolSize=2)
 	void validationtest() throws InterruptedException
 	
 	{ 
